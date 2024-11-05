@@ -66,7 +66,7 @@ public class LoginTest {
         } catch (Exception e) {
             writeToFile("Test encountered an exception: " + e.getMessage());
             e.printStackTrace();
-            // captureScreenshot("testLogin_failure"); // Commented out
+
         }
     }
 
@@ -110,16 +110,14 @@ public class LoginTest {
         } catch (Exception e) {
             writeToFile("Test encountered an exception: " + e.getMessage());
             e.printStackTrace();
-            // captureScreenshot("testLockedOutUserLogin_failure"); // Commented out
         }
     }
 
-    // Method to handle test failures (without capturing a screenshot)
+    // Method to handle test failures
     @AfterMethod
     public void handleTestFailure(ITestResult result) {
         if (!result.isSuccess()) {
             logTestStep("Test failed: " + result.getName());
-            // captureScreenshot(result.getName() + "_failure"); // Commented out
         }
     }
 

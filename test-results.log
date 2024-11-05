@@ -1,0 +1,44 @@
+[2024-11-05 11:02:18] Step: Browser setup completed
+[2024-11-05 11:02:18] Step: Test started: testLockedOutUserLogin
+[2024-11-05 11:02:21] Step: Navigated to https://www.saucedemo.com
+[2024-11-05 11:02:23] Step: Entered credentials for locked_out_user
+[2024-11-05 11:02:25] Step: Clicked the login button
+[2024-11-05 11:02:27] Step: Error message checked: Epic sadface: Sorry, this user has been locked out.
+[2024-11-05 11:02:27] Test passed: Correct error message displayed for locked_out_user.
+[2024-11-05 11:02:27] Step: Test started: testLogin
+[2024-11-05 11:02:28] Step: Navigated to https://www.saucedemo.com
+[2024-11-05 11:02:30] Step: Entered credentials for standard_user
+[2024-11-05 11:02:32] Step: Clicked the login button
+[2024-11-05 11:02:34] Step: Current URL checked: https://www.saucedemo.com/inventory.html
+[2024-11-05 11:02:34] Test passed: Login was successful. Current URL: https://www.saucedemo.com/inventory.html
+[2024-11-05 11:02:34] Step: Closing the browser
+[2024-11-05 11:03:34] Step: Browser setup completed
+[2024-11-05 11:03:34] Step: Test started: testLogin
+[2024-11-05 11:03:36] Step: Navigated to https://www.saucedemo.com
+[2024-11-05 11:03:39] Step: Entered credentials for standard_user
+[2024-11-05 11:03:41] Step: Clicked the login button
+[2024-11-05 11:03:43] Step: Current URL checked: https://www.saucedemo.com/
+[2024-11-05 11:03:43] Test failed: Login failed. Current URL: https://www.saucedemo.com/
+[2024-11-05 11:03:43] Step: Test failed: testLogin
+[2024-11-05 11:03:43] Screenshot saved: screenshots\testLogin_failure.png
+[2024-11-05 11:03:43] Step: Closing the browser
+[2024-11-05 11:07:34] Step: Browser setup completed
+[2024-11-05 11:07:34] Step: Test started: testLockedOutUserLogin
+[2024-11-05 11:07:34] Test encountered an exception: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=130.0.6723.92)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b7150d04f4efa11f64634219e52f50f0, get {url=https://www.saucedemo.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\THISUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61870/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7150d04f4efa11f64634219e52f50f0
+[2024-11-05 11:07:35] Step: Test started: testLogin
+[2024-11-05 11:07:35] Test encountered an exception: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=130.0.6723.92)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b7150d04f4efa11f64634219e52f50f0, get {url=https://www.saucedemo.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\THISUS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61870/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7150d04f4efa11f64634219e52f50f0
+[2024-11-05 11:07:35] Step: Closing the browser
